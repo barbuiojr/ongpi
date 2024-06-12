@@ -1,0 +1,78 @@
+body{
+	background: url("imagens/fundo.png");
+}
+h1{
+	font-family: Arial;
+	color: #642709;
+
+}
+h2{
+	font-family: Arial;
+	color: #642723;
+}
+h3{
+	font-family: Arial;
+	color: #642723;
+}
+a{
+	color: #642709;
+	text-decoration: none;
+	padding: 5px;
+	font-family: Arial;
+	font-size: 10pt;
+}
+a:link{
+	color: #642709;
+}
+a:visited{
+	color: #642709;
+}
+a:hover{
+	color: #fff;
+	background: #642709;
+}
+.menu{
+	width: 920px;
+	padding: 10px;
+	margin: 0 auto;
+	background: #F5EBDF;
+}
+#logo{
+	width: 180px;
+	float: right;
+	padding: 25px;
+}
+#criancas{
+	width: 600px;
+	float: left;
+	padding: 25px;
+}
+#principal{
+	width: 900px;
+	padding: 20px;
+	background: #ddd6ba;
+	margin: 0 auto;
+	text-align: center;
+}
+.projetos{
+	width: 900px;
+	padding: 20px;
+	margin: 0 auto;
+	background: #ddd6ba;
+	text-align: center;
+	}
+#projesquerda{
+	width: 400px;
+	margin: 20px;
+	float: left;
+}
+#projdireita{
+	width: 400px;
+	margin: 20px;
+	float: right;
+}
+#rodape{
+	clear: both;
+	float: 0, auto;
+	text-align: center;
+}

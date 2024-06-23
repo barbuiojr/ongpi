@@ -37,6 +37,7 @@ h2{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 	background: #A0937D;
 }
 
@@ -75,6 +76,7 @@ h2{
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	width: 40%;
 	background: #A0937D;
 	padding: 10px;
@@ -85,6 +87,7 @@ h2{
 	width: 90%;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	align-items: top;
 }
 #linha1 div {
@@ -95,6 +98,7 @@ h2{
 	width: 90%;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	align-items: top;
 }
 #linha2 div {
@@ -135,6 +139,7 @@ h2{
 	width: 80%;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	align-items: center;
 	background: #E7D4B5;
 }

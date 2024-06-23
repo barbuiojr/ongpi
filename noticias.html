@@ -3,50 +3,78 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico">
+	<title>Sistema ONGs SENAC</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<title>Notícias</title>
+	<link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico">
 </head>
-<body>
-	<div class="menu">
-		<span id="criancas"><img src="imagens/criancas2.jpg"></span>
-		<span id="logo"><img src="imagens/logo-of1.png"></span>
-		<div id="mouse">
-			<a href="index.html">HOME</a>
-			<a href="projetos.html">PROJETOS</a>
-			<a href="noticias.html">NOTICIAS</a>
-			<a href="institucional.html">INSTITUCIONAL</a>
-			<a href="doacoes.html">DOAÇÕES</a>
-			<a href="parceiria.html">EMPRESAS PARCEIRAS</a>
+<body id="principal">
+	<div id="container">
+		
+		<!--Topo do site-->
+		<div id="topo-site">
+			<div id="barra-navegacao">
+				<ul id="menu">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="ongs.html">ONGS</a></li>
+					<li><a href="noticias.html">NOTICIAS</a></li>
+				</ul>
+			</div>
+			<div id="logo">
+				<img src="imagens/logo-principal.png">
+			</div>
+			<div id="idioma">
+				<a href="english.html"><img src="imagens/usa.png"></a>
+				<a href="index.html"><img src="imagens/brasil.png"></a>
+			</div>
+			<div id="login">
+				<h3>Administrador de ONG</h3>
+				<h3>Entre por aqui</h3>
+				<a href="login.html"><img src="imagens/login.png"></a>
+			</div>
 		</div>
-	</div>
-	<div class="projetos">
-		<span id="projesquerda">
-			<h1>Projeto Reforço Escolar</h1>
-			<img src="imagens/estudando.jpg">
-			<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus fermentum dolor. Fusce tellus purus, pretium fermentum luctus sit amet, pellentesque ac lectus.Proin aliquam porttitor imperdiet. Sed fermentum ac odio vitae malesuada.</p>
-		</span>
-		<span id="projdireita">
-			<h1>Segurança Alimentar</h1>
-			<img src="imagens/comendo.jpg">
-			<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus fermentum dolor. Fusce tellus purus, pretium fermentum luctus sit amet, pellentesque ac lectus.Proin aliquam porttitor imperdiet. Sed fermentum ac odio vitae malesuada.</p>
-		</span>
-		<span id="projesquerda" style="clear: both;">
-			<h1>Práticas esportivas</h1>
-			<img src="imagens/esporte2.jpg" width="360">
-			<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus fermentum dolor. Fusce tellus purus, pretium fermentum luctus sit amet, pellentesque ac lectus.Proin aliquam porttitor imperdiet. Sed fermentum ac odio vitae malesuada.</p>
-		</span>
-		<span id="projdireita">
-			<h1>Contato com a tecnologia</h1>
-			<img src="imagens/computador.jpg" width="360">
-			<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus fermentum dolor. Fusce tellus purus, pretium fermentum luctus sit amet, pellentesque ac lectus.Proin aliquam porttitor imperdiet. Sed fermentum ac odio vitae malesuada.</p>
-		</span>
-		<div style="clear:both;">
-			<a href="">SEJA VOLUNTÁRIO</a>
+		<!--Fim do topo-->
+		
+		<!-- Conteúdo principal -->
+		<div id="conteudo-noticias">
+			<div id="noticias-esquerda">
+				<p>Parlamento da Venezuela deve votar nova lei para regulamentar ONGs no país<p>
+				<img src="imagens/noticias1.png">
+				<br><a href="https://www.cnnbrasil.com.br/internacional/parlamento-da-venezuela-deve-votar-nova-lei-para-regulamentar-ongs-no-pais/" target="_blank">Leia mais</a>
+				<hr>
+				<p>Quer ajudar o Rio Grande do Sul? Saiba como ser um voluntário ou doador com essas instituições<p>
+				<img src="imagens/noticias3.png">
+				<br><a href="https://exame.com/carreira/seja-um-voluntario-ongs-estao-arrecadando-doacoes-para-o-rs-veja-como-apoiar/" target="_blank">Leia mais</a>
+				<hr>
+			</div>
+			<div id="noticias-centro">
+				<p>Terra dos Invisíveis: população de rua em SP equivale a uma cidade e tem economia própria<p>
+				<img src="imagens/noticias4.png">
+				<br><a href="https://exame.com/esg/terra-dos-invisiveis-populacao-de-rua-em-sp-equivale-a-uma-cidade-e-tem-economia-propria-diz-ong/" target="_blank">Leia mais</a>
+				<hr>
+				<p>CEO da OpenAI acompanha Bill Gates e promete doar a maior parte de sua fortuna<p>
+				<img src="imagens/noticias2.png">
+				<br><a href="https://exame.com/tecnologia/ceo-da-openai-acompanha-bill-gates-e-promete-doar-a-maior-parte-de-sua-fortuna/" target="_blank">Leia mais</a>
+				<hr>
+			</div>
+			<div id="noticias-direita">
+				<p>Show AMIGOS arrecada R$ 5 milhões para o Natal das famílias impactadas pela ONG Amigos do Bem<p>
+				<img src="imagens/noticias5.png">
+				<br><a href="https://exame.com/esg/show-amigos-arrecada-r-5-milhoes-para-o-natal-das-familias-impactadas-pela-ong-amigos-do-bem/" target="_blank">Leia mais</a>
+				<hr>
+				<p>ONG referência em inclusão na Web3 anuncia iniciativa para mulheres em parceria com a UNICEF<p>
+				<img src="imagens/noticias6.png">
+				<br><a href="https://exame.com/future-of-money/ong-referencia-em-inclusao-na-web3-anuncia-iniciativa-para-mulheres-em-parceria-com-a-unicef/" target="_blank">Leia mais</a>
+				<hr>
+			</div>
+			
 		</div>
-	</div>
-	<div id="rodape">
-		<h3>Todos os direitos reservados &copy;</h3>
+		<div id="rodape">
+			<p>Todos os direitor reservados &copy;</p>
+			<p>SENAC HUB ACADEMY</p>
+			<p>Rua Francisco Cândido Xavier - Centro - Campo Grande - MS</p>
+			<p>Desenvolvido por - Voucher Desenvolvedor Turma 145 - SENAC</p>
+
+		</div>
 	</div>
 </body>
 </html>

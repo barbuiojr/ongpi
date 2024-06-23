@@ -1,0 +1,11 @@
+#conteudo{
+	margin: 10px auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	background: gray;
+
+}
+#linha1 video{
+	padding: 10px;
+}

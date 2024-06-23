@@ -156,6 +156,51 @@ h2{
 	text-align: center;
 	width: 250px;
 }
+
+/* Página de Login*/
+#conteudo-login{
+	margin: 0 auto;
+	padding: 30px;
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	background: #E7D4B5;
+}
+#conteudo-login img{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+#conteudo-login img:hover{
+	width: 50%;
+}
+#conteudo-login a{
+	text-align: center;
+}
+#conteudo-adm{
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #E7D4B5;
+}
+#conteudo-adm h4{
+	background: #2d9bf0;
+	padding: 4px;
+	color: #fff;
+	border-radius: 9px;
+}
+#linha1-adm{
+	width: 80%;
+	margin: 0 auto;
+	padding: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
 /* Rodapé */
 #rodape {
 	margin: 10px auto;

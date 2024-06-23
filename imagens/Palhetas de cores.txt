@@ -1,0 +1,17 @@
+Verde
+#2B9348
+#55A630
+#81B918
+#E9C46B
+
+Pastel
+#FFAEAD
+#FFD6A6
+#FDFFB6
+#FDFFB6
+
+Azul
+#e8e7de
+#008a92
+#00597f
+#03305a

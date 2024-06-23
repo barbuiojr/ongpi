@@ -122,6 +122,7 @@ h2{
 #videos{
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	align-items: center;
 }
 #videos video{

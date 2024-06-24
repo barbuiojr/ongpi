@@ -1,11 +1,50 @@
+body{
+	background: url(imagens/background-bichos1.jpg);
+	font-family: gabriola, arial, sans-serif;
+	font-size: 20px;
+}
+
 #conteudo{
+	margin: 10px auto;
+	width: 80%;
+	display: column;
+	justify-content: space-around;
+	background: #95D2B3;
+
+}
+.linha video{
+	padding: 10px;
+}
+.linha{
 	margin: 10px auto;
 	width: 80%;
 	display: flex;
 	justify-content: space-around;
-	background: gray;
-
+	font-size: 1.5em;
 }
-#linha1 video{
-	padding: 10px;
+#cabecalho{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 80%;
+	height: 100px;
+	background: #06D001;
+}
+#cabecalho li{
+	color: #fff;
+	background: #219C90;
+	float: left;
+	padding: 7px;
+	list-style: none;
+	text-transform: uppercase;
+}
+#cabecalho ul{
+	padding: 20px;
+}
+#rodape{
+	margin: 0 auto;
+	width: 75%;
+	background: #D8EFD3;
+	text-align: center;
+	font-size: 1.2em;
 }

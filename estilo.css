@@ -258,6 +258,71 @@ h2{
 	font-family: Arial;
 	font-size: 1em;
 }
+#cadong{
+	width: 80%;
+	margin: 5px;
+	padding: 5px;
+	display: flex;
+	justify-content:left;
+	height: 30px;
+	border: 1px solid black;
+	background: #fff;
+	align-items: center;
+}
+#cadong a{
+	text-decoration: underline;
+}
+#cadong p{
+	font-family: Arial;
+	padding-left: 10px;
+	font-size: 0.6em;
+	color: #686D76;
+}
+#cadong h4{
+	background: #2d9bf0;
+	padding: 10px;
+	margin: 10px;
+	color: #fff;
+	border-radius: 3px;
+}
+/* Esqueci senha*/
+#senha{
+	width: 30%;
+	margin: 5px;
+	padding: 5px;
+	display: flex;
+	justify-content:left;
+	border: 1px solid black;
+	background: #fff;
+	align-items: center;
+}
+#captcha{
+	width: 40%;
+	margin: 5px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+	background: #fff;
+	align-items: center;
+}
+#senha a{
+	text-decoration: underline;
+}
+#senha p{
+	font-family: Arial;
+	padding-left: 10px;
+	font-size: 0.6em;
+	color: #686D76;
+}
+#senha h4{
+	background: #2d9bf0;
+	padding: 10px;
+	margin: 10px;
+	color: #fff;
+	border-radius: 3px;
+}
+/* Fim esqueci senha*/
 #rel-anteriores{
 	display: flex;
 	padding: 15px;
@@ -266,6 +331,12 @@ h2{
 }
 #rel-anteriores h4{
 	margin: 10px;
+}
+#rel-junho img{
+	margin: 0 auto;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
 }
 #cadastrar-parceiro{
 	width: 65%;

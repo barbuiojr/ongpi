@@ -10,7 +10,6 @@ body{
 	display: column;
 	justify-content: space-around;
 	background: #95D2B3;
-
 }
 .linha video{
 	padding: 10px;
@@ -29,6 +28,7 @@ body{
 	width: 80%;
 	height: 100px;
 	background: #06D001;
+	padding-bottom: 30px;
 }
 #cabecalho li{
 	color: #fff;
@@ -41,8 +41,57 @@ body{
 #cabecalho ul{
 	padding: 20px;
 }
+#fale-conosco{
+	width: 30%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	line-height: 2px;
+	text-align: center;
+}
+#fale-conosco p{
+	font-size: 1.3em;
+}
+#redes{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	align-items: center;
+}
+
+/*Página projetos*/
+#projetos{
+	margin: 10px auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	background: #95D2B3;
+}
+#resgate{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 20px;
+}
+#veterinario{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 20px;
+}
+#adocao{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 20px;
+}
+#adocao, #veterinario, #resgate h2{
+	text-align: center;
+}
 #rodape{
 	margin: 0 auto;
+	line-height: 5px;
+	padding: 10px;
 	width: 75%;
 	background: #D8EFD3;
 	text-align: center;
